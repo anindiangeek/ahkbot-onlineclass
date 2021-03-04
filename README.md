@@ -4,7 +4,7 @@
 -------------------------------------------------------------------------
 <h3> Basic Information </h3>
  
-  This section will be updated soon
+  Made a script which will automatically join my online classes and mark me present.
   you can download the files and make edits in "working scripts.ahk" file 
   and refer this read me section or "for explanation only.ahk file"
   
