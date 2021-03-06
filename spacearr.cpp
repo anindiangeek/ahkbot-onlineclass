@@ -3,32 +3,20 @@
 using namespace std;
 
 #define ll long long
+#define ull unsigned long long
 
 void solve()
 {
-    int n, h, x, p;
-    cin >> n >> h >> x;
-    int a[n];
+    ull int n;
+    cin >> n;
+    ull int a[n];
+    ull int sum = 0;
+    ull int diffrence = 0;
+    ull int x = ((n * (n + 1)) / 2);
     for (int i = 0; i < n; i++)
     {
         cin >> a[i];
-    }
-    if (x >= h)
-    {
-        cout << "YES";
-    }
-    else
-    {
-        for (int i = 0; i < n; i++)
-        {
-            p = a[i] + x;
-            if (p >= h)
-            {
-                cout << "YES";
-                return;
-            }
-        }
-        cout << "NO";
+        sum += a[i];
     }
 }
 void io()
@@ -41,6 +29,13 @@ int main()
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     io(); // THIS MUST BE DELETED BEFORE SUBMITTING
-    solve();
+    ull int t;
+    cin >> t;
+    do
+    {
+        solve();
+        t--;
+    } while (t != 0);
+
     return 0;
 }
