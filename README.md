@@ -8,4 +8,4 @@
   you can download the files and make edits in "working scripts.ahk" file 
   and refer this read me section or "for explanation only.ahk file"
   
-* Watch this video for more information : https://youtu.be/Aout9-1dIZc
+  Update: looks for comments, I have tried to explain, I am not working on this anymore.
